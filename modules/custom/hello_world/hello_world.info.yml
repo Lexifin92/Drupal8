@@ -1,5 +1,5 @@
 name: Hello World Moduuli
-description: 'Tulostaa tekstiä selaimeen'
+description: 'Tulostaa tekstiä selaimeen.'
 package: Custom
 type: module
 core: '8.x'
