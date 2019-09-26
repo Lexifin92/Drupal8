@@ -13,6 +13,20 @@ class HelloWorldController extends ControllerBase {
            '#title' => 'Hello world',
            '#markup' => $teksti . '(tekijänä: ' . $tekijaNimi . ' &copy;)'
        );
-   }
+
+    }
+
+
+
+    public function uutinen(){
+        $tekijaNimi = 'Alex';
+        $uutinen = '<h1>Tähän tulee otsikko</h1><p> ja jatkuu leipänä tässä.</p>';
+        return function
+  
+  
+  
+    }
+
+
 }
 ?>

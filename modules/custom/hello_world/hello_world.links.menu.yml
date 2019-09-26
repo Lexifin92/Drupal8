@@ -1,0 +1,6 @@
+hello_world.newpage:
+  title: 'Hello World'
+  description: 'Näytä Hello World teksti tässä.'
+  route_name: hello_world.content
+  weight: 10
+  menu_name: main
