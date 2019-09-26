@@ -7,7 +7,7 @@ namespace Drupal\hello_world\Controller;
 use Drupal\Core\Controller\ControllerBase;
 class HelloWorldController extends ControllerBase {
    public function hello(){
-       $tekijaNimi = 'Mega Lexi';
+       $tekijaNimi = 'Mega Lexi! ';
        $teksti = '<h1>Mahtava meininki</h1><p>Tämä on ensimmäinen moduulini.</p>';
        return array(
            '#title' => 'Hello world',
